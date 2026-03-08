@@ -1,0 +1,21 @@
+.name-input-content {
+  --background: var(--ion-background-color);
+}
+
+.name-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.name-input-item {
+  width: 80%;
+  max-width: 400px;
+  --background: transparent;
+  --border-color: var(--ion-color-medium);
+  --border-width: 0 0 2px 0;
+  --border-style: solid;
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
