@@ -1,0 +1,23 @@
+.loading-content {
+  --background: var(--ion-background-color);
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 24px;
+}
+
+.loading-spinner {
+  width: 64px;
+  height: 64px;
+}
+
+.loading-text {
+  font-size: 1.2rem;
+  color: var(--ion-color-medium);
+  text-align: center;
+}
